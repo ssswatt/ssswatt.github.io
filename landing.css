@@ -1,0 +1,61 @@
+body {
+    background-color: #000;
+    font-family: "mc";
+    color: #fff;
+    display: flex;
+    align-items: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@font-face {
+    font-family: "mc";
+    src: url("regular.otf") format("opentype");
+}
+
+.landing {
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .landing-logo {
+        width: 20em;
+    }
+
+    .landing a {
+        color: #fff;
+        text-decoration: none;
+        transition: ease-in-out .1s;
+    }
+
+    .landing a:hover {
+        color: #7700FF;
+        text-decoration: none;
+    }
+
+    .landing .archive {
+        font-weight: bold;
+        font-size: 2em;
+    }
+
+
+/* Media query */
+@media (max-width: 1000px) {
+
+    .body {
+        width: 100%;
+    }
+
+    .landing {
+        width: 100%;
+    }
+
+    pre {
+        font-size: 9px;
+    }
+
+}
